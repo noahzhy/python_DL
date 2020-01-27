@@ -3,7 +3,7 @@
 >All codes writen by python3
 
 ## requirements
-* tensorflow==1.14
-* python=3.6.9
-* numpy==1.16.0
+* tensorflow==1.15
+* python=3.7.4
+* numpy==1.17.0
 
