@@ -6,7 +6,10 @@ from keras.utils import to_categorical
 
 
 # 加载数据集
-(train_images, train_labels), (test_images, test_labels) = mnist.load_data(os.path.join(os.getcwd(), 'datasets/mnist.npz'))
+(train_images, train_labels), (test_images, test_labels) = mnist.load_data(
+    os.path.join(os.getcwd(), 'datasets/mnist.npz')
+)
+
 print('train labels:', train_labels, len(train_images), train_images.shape)
 print('test labels: ', test_labels, len(test_images), test_labels.shape)
 
